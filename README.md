@@ -1,50 +1,150 @@
-🛒 Mini Market Otomasyonu
-Bu proje, temel Java programlama prensipleri kullanılarak geliştirilmiş, konsol tabanlı bir market yönetim sistemidir. Ürün stok takibi, sepet yönetimi ve indirimli kasa fişi oluşturma gibi işlevsel özelliklere sahiptir.
+🛒 Mini Market Otomasyon Sistemi
 
-👤 Geliştirici Bilgileri
-Ad Soyad: Yunusemre Perdi
+Bu proje, BPR 151 – Programcılığa Giriş dersi kapsamında Java programlama dili kullanılarak geliştirilmiş, konsol tabanlı bir Mini Market Otomasyon Sistemi uygulamasıdır. Proje, gerçek hayatta market ve mağazalarda kullanılan otomasyon sistemlerinin temel işleyişini simüle etmeyi amaçlamaktadır.
 
-Öğrenci Numarası: 240053034
+📌 Projenin Amacı
 
-Bölüm: Bilgisayar Programcılığı
+Günümüzde market ve mağaza otomasyon sistemleri; ürün takibi, stok kontrolü, satış işlemleri, indirim uygulamaları ve raporlama gibi süreçlerin düzenli ve hatasız bir şekilde yürütülmesini sağlamaktadır. Manuel olarak yürütülen bu işlemler zaman kaybına, insan hatalarına ve maddi kayıplara yol açabilmektedir. Bu nedenle otomasyon sistemleri, hem küçük hem de büyük ölçekli işletmeler için vazgeçilmez hale gelmiştir.
 
-🚀 Özellikler
-Proje, bir marketin günlük operasyonel ihtiyaçlarını karşılamak üzere şu fonksiyonları sunar:
+Bu proje, Programcılığa Giriş dersi kapsamında verilen bir final projesi olarak geliştirilmiştir. Projenin temel amacı; gerçek hayatta karşılaşılabilecek basit bir market otomasyon problemini ele almak ve bu problemi Java programlama dili kullanarak yazılımsal bir çözüme dönüştürmektir.
 
-Envanter Yönetimi: Ürün ekleme, silme ve detaylı stok takibi.
+Geliştirilen Mini Market Otomasyon Sistemi sayesinde kullanıcılar;
 
-Stok Kontrol Sistemi: Ürün sepete eklendiğinde stoktan düşme, sepetten çıkarıldığında stoğa geri ekleme.
+Market bünyesinde bulunan ürünleri ve fiyatlarını görüntüleyebilmekte,
 
-Sepet Yönetimi: Dinamik ürün ekleme ve sepetten ürün çıkarma.
+Market sistemine yeni ürün ekleyebilmekte veya mevcut ürünleri silebilmekte,
 
-İndirim Mekanizması: Toplam tutar üzerinden yüzde bazlı indirim uygulama.
+Ürünleri sepete ekleyip sepetten çıkarabilmekte,
 
-Kasa Fişi: Tüm kalemlerin, ara toplamın, indirim miktarının ve net ödenecek tutarın detaylı dökümü.
+Stok durumu yetersiz olan ürünlerin sepete eklenmesini engelleyebilmekte,
 
-🛠 Kullanılan Teknolojiler
-Dil: Java (JDK 8 veya üzeri)
+Belirlenen oranlarda indirim uygulayabilmekte,
 
-Veri Yapıları: ArrayList (Dinamik veri yönetimi için)
+Alışveriş sonunda detaylı ve anlaşılır bir kasa fişi alabilmektedir.
 
-Giriş/Çıkış: java.util.Scanner
+Bu proje ile öğrencinin; algoritmik düşünme, problem çözme, program akışını planlama ve Java’nın temel yapılarını etkin kullanma becerilerini geliştirmesi hedeflenmiştir.
 
-📖 Kullanım ve Menü Yapısı
-Program çalıştırıldığında kullanıcıyı karşılayan ana menü seçenekleri şunlardır:
+⚙️ Uygulama Özellikleri
 
-Market Ürünlerini Listele: Mevcut ürünlerin adını, fiyatını ve stok durumunu gösterir.
+📦 Ürün listeleme
 
-Market Ürün Ekle/Sil: Envantere yeni ürün tanımlar veya mevcut olanı kaldırır.
+➕ Yeni ürün ekleme
 
-Sepete Ürün Ekle: Ürün numarası ile seçim yapılır (Stok kontrolü yapılır).
+❌ Ürün silme
 
-İndirim Uygula: Müşteriye özel yüzde (%) cinsinden indirim tanımlar.
+📊 Stok takip sistemi
 
-Kasa Fişi Yazdır: İşlemi tamamlar ve mali dökümü ekrana basar.
-📜 Kod Yapısı Hakkında Notlar
-Proje içerisinde veriler üç ana ArrayList üzerinde senkronize bir şekilde tutulmaktadır:
+🧺 Sepete ürün ekleme ve sepetten çıkarma
 
-urunler: Ürün isimlerini saklar.
+⛔ Stokta olmayan ürünlerin sepete eklenmesinin engellenmesi
 
-fiyatlar: Ürünlerin birim fiyatlarını double tipinde saklar.
+💸 Yüzde bazlı indirim uygulama
 
-stoklar: Ürünlerin anlık stok adetlerini Integer tipinde yönetir.
+🧾 Detaylı kasa fişi oluşturma
+
+🧭 Menü tabanlı kullanıcı etkileşimi
+
+🧠 Kullanılan Teknolojiler
+
+Programlama Dili: Java
+
+Uygulama Türü: Konsol Tabanlı Uygulama
+
+IDE: IntelliJ IDEA Community Edition
+
+🧩 Kullanılan Java Yapıları ve Veri Yapıları
+
+Bu projede, Programcılığa Giriş dersi kapsamında öğrenilen temel Java konuları aktif olarak kullanılmıştır:
+
+Değişkenler
+
+Koşul yapıları (if-else, switch-case)
+
+Döngüler (for, while)
+
+Metotlar
+
+ArrayList veri yapısı
+
+Kullanım Amaçları
+
+ArrayList: Ürün isimleri, fiyatları, stok bilgileri ve sepet ürünlerinin dinamik olarak tutulması
+
+Metotlar: Kodun daha okunabilir ve modüler hale getirilmesi
+
+🏗️ Program Tasarımı ve Çalışma Mantığı
+
+Uygulama tamamen konsol tabanlı olarak tasarlanmıştır. Kullanıcı ile etkileşim, ekrana yazdırılan metin tabanlı menüler aracılığıyla sağlanmaktadır. Bu yaklaşım, programlamaya yeni başlayan öğrencilerin algoritma ve program akış mantığını daha net kavrayabilmesi açısından tercih edilmiştir.
+
+Programın ana kontrol yapısı while döngüsü ile sağlanmaktadır. Kullanıcı çıkış seçeneğini seçene kadar program çalışmaya devam etmektedir. Her kullanıcı seçimi, switch-case yapısı kullanılarak ilgili işlem bloğuna yönlendirilir.
+
+Genel Program Akışı
+
+Program başlatılır ve ana menü ekrana yazdırılır
+
+Kullanıcıdan bir işlem seçmesi istenir
+
+Seçilen işleme göre ilgili metot çalıştırılır
+
+Stok ve sepet verileri güncellenir
+
+Kullanıcı tekrar ana menüye yönlendirilir
+
+Çıkış seçildiğinde program güvenli bir şekilde sonlandırılır
+
+Bu yapı sayesinde program modüler, okunabilir ve genişletilebilir bir hale getirilmiştir.
+
+📊 Stok Yönetim Sistemi
+
+Stok yönetimi, Mini Market Otomasyon Sisteminin en kritik bileşenlerinden biridir. Gerçek hayattaki market sistemlerinde olduğu gibi, stok bilgileri her işlem sonrası güncel tutulmaktadır.
+
+Sepete ürün ekleme işlemi sırasında ilgili ürünün stok miktarı kontrol edilir.
+
+Stok miktarı sıfır olan ürünlerin sepete eklenmesine izin verilmez.
+
+Sepetten ürün çıkarıldığında, çıkarılan ürünün stok miktarı otomatik olarak artırılır.
+
+Bu mekanizma sayesinde stok bilgileri her zaman doğru ve güncel kalmakta, kullanıcıya hatalı bilgi sunulmasının önüne geçilmektedir. Ayrıca bu yapı, market işletmeciliği açısından olası zararların önlenmesini sağlamaktadır.
+
+💸 İndirim Sistemi
+
+Uygulamada esnek bir indirim sistemi bulunmaktadır. Kullanıcı, alışveriş sırasında sepet ara toplamı üzerinden uygulanacak indirim oranını yüzde (%) cinsinden belirleyebilmektedir.
+
+İndirim hesaplama süreci şu şekilde gerçekleşmektedir:
+
+Sepetteki ürünlerin toplam tutarı hesaplanır
+
+Kullanıcının belirlediği indirim oranı alınır
+
+İndirim tutarı hesaplanır
+
+İndirim tutarı toplam fiyattan düşülerek ödenecek tutar belirlenir
+
+Bu sistem, kampanya ve promosyon uygulamalarının temel mantığını simüle etmekte ve kullanıcıya gerçekçi bir alışveriş deneyimi sunmaktadır.
+
+🧾 Kasa Fişi Oluşturma
+
+Alışverişin sonunda kullanıcıya detaylı bir kasa fişi sunulmaktadır. Kasa fişi aşağıdaki bilgileri içermektedir:
+
+Sepette bulunan ürünler
+
+Ürün fiyatları
+
+Ara toplam
+
+Uygulanan indirim oranı
+
+İndirim tutarı
+
+Ödenecek toplam tutar
+
+Kasa fişi, konsol ekranına düzenli ve okunabilir bir formatta yazdırılmaktadır.
+
+📂 Proje Klasör Yapısı
+BPR_151_FINAL_OGRENCINUMARASI/
+├── src/
+│ └── Main.java
+├── .idea/
+├── out/
+Main.java: Uygulamanın ana sınıfını içerir. Tüm market otomasyonu işlemleri bu dosya üzerinden yürütülmektedir.
+Kod içerisinde açıklayıcı yorum satırları kullanılmıştır.
